@@ -1,0 +1,36 @@
+[0;37m22:52:20.755  INFO [0;34m   service: [0mInitializing. For verbose output run with "-l debug". Please wait... [0;37mdaemon.go:44[0m
+[0;37m22:52:21.015  INFO [0;34m   cluster: [0mIPFS Cluster v0.10.1 listening on:
+        /p2p-circuit/ipfs/QmcXwXgXCa98LQZt8Xf2JkkET73Pk7AbZ5xWpu1HpB6DyZ
+        /ip4/140.113.216.99/tcp/9096/ipfs/QmcXwXgXCa98LQZt8Xf2JkkET73Pk7AbZ5xWpu1HpB6DyZ
+
+ [0;37mcluster.go:114[0m
+[0;37m22:52:21.016  INFO [0;34m ipfsproxy: [0mIPFS Proxy: /ip4/140.113.216.99/tcp/9095 -> /ip4/140.113.216.99/tcp/5001 [0;37mipfsproxy.go:274[0m
+[0;37m22:52:21.016  INFO [0;34m   restapi: [0mREST API (HTTP): /ip4/127.0.0.1/tcp/9094 [0;37mrestapi.go:458[0m
+[0;37m22:52:21.016  INFO [0;34m consensus: [0mexisting Raft state found! raft.InitPeerset will be ignored [0;37mraft.go:187[0m
+[0;37m22:52:21.017  INFO [0;34m   restapi: [0mREST API (libp2p-http): ENABLED. Listening on:
+        /p2p-circuit/ipfs/QmcXwXgXCa98LQZt8Xf2JkkET73Pk7AbZ5xWpu1HpB6DyZ
+        /ip4/140.113.216.99/tcp/9096/ipfs/QmcXwXgXCa98LQZt8Xf2JkkET73Pk7AbZ5xWpu1HpB6DyZ
+
+ [0;37mrestapi.go:475[0m
+[0;37m22:52:22.231 [33mWARNI [0;34m consensus: [0mthere seems to be no leader. Waiting for one [0;37mconsensus.go:241[0m
+[0;37m22:52:22.995 [31mERROR [0;34m      raft: [0mNOTICE: Some RAFT log messages repeat and will only be logged once [0;37mlogging.go:105[0m
+[0;37m22:52:22.995 [31mERROR [0;34m      raft: [0mFailed to make RequestVote RPC to {Voter QmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC QmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC}: dial attempt failed: no good addresses [0;37mlogging.go:105[0m
+[0;37m22:52:23.002 [31mERROR [0;34m      raft: [0mFailed to AppendEntries to {Voter QmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC QmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC}: dial backoff [0;37mlogging.go:105[0m
+[0;37m22:52:23.017  INFO [0;34m consensus: [0mCurrent Raft Leader: QmcXwXgXCa98LQZt8Xf2JkkET73Pk7AbZ5xWpu1HpB6DyZ [0;37mraft.go:280[0m
+[0;37m22:52:23.023 [31mERROR [0;34m  ipfshttp: [0merror posting to IPFS: Post http://127.0.0.1:5001/api/v0/pin/ls?arg=QmcS9boZHqrzd5oHPjsJM8aa7AeFa1Xt7HsZ82EX1ogKdB&type=recursive: context canceled [0;37mipfshttp.go:431[0m
+[0;37m22:52:23.024 [31mERROR [0;34m p2p-gorpc: [0mPost http://127.0.0.1:5001/api/v0/pin/ls?arg=QmcS9boZHqrzd5oHPjsJM8aa7AeFa1Xt7HsZ82EX1ogKdB&type=recursive: context canceled [0;37mcall.go:63[0m
+[0;37m22:52:23.119  INFO [0;34m   cluster: [0mCluster Peers (without including ourselves): [0;37mcluster.go:445[0m
+[0;37m22:52:23.119  INFO [0;34m   cluster: [0m    - QmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC [0;37mcluster.go:452[0m
+[0;37m22:52:23.119  INFO [0;34m   cluster: [0m    - QmXY7fmpG6LjKpTBLS73DgiVzYZcJBtnARi7PBh1BSi6GQ [0;37mcluster.go:452[0m
+[0;37m22:52:23.119  INFO [0;34m   cluster: [0m** IPFS Cluster is READY ** [0;37mcluster.go:460[0m
+[0;37m22:52:23.188 [31mERROR [0;34m      raft: [0mFailed to heartbeat to QmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC: dial backoff [0;37mlogging.go:105[0m
+[0;37m22:52:23.231  INFO [0;34m consensus: [0mCurrent Raft Leader: QmcXwXgXCa98LQZt8Xf2JkkET73Pk7AbZ5xWpu1HpB6DyZ [0;37mraft.go:280[0m
+[0;37m22:52:23.231  INFO [0;34m consensus: [0mQmXY7fmpG6LjKpTBLS73DgiVzYZcJBtnARi7PBh1BSi6GQ is already a raft peer [0;37mraft.go:472[0m
+[0;37m22:52:23.232  INFO [0;34m consensus: [0mpeer added to Raft: QmXY7fmpG6LjKpTBLS73DgiVzYZcJBtnARi7PBh1BSi6GQ [0;37mconsensus.go:393[0m
+[0;37m22:52:23.250  INFO [0;34m   cluster: [0mPeer added  QmXY7fmpG6LjKpTBLS73DgiVzYZcJBtnARi7PBh1BSi6GQ [0;37mcluster.go:672[0m
+[0;37m22:52:23.251  INFO [0;34m consensus: [0mQmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC is already a raft peer [0;37mraft.go:472[0m
+[0;37m22:52:23.251  INFO [0;34m consensus: [0mpeer added to Raft: QmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC [0;37mconsensus.go:393[0m
+[0;37m22:52:23.458  INFO [0;34m   cluster: [0mPeer added  QmQw35V7QJbD5cPwffLXjHQYYocv2RUADJxYgnPUQaasaC [0;37mcluster.go:672[0m
+[0;37m22:52:30.842 [31mERROR [0;34m basichost: [0mDiscoverNAT error: no NAT found [0;37mnatmgr.go:96[0m
+[0;37m23:01:29.936 [31mERROR [0;34m      raft: [0mNOTICE: Some RAFT log messages repeat and will only be logged once [0;37mlogging.go:105[0m
+[0;37m23:01:29.937 [31mERROR [0;34m      raft: [0mpeer {Voter QmXY7fmpG6LjKpTBLS73DgiVzYZcJBtnARi7PBh1BSi6GQ QmXY7fmpG6LjKpTBLS73DgiVzYZcJBtnARi7PBh1BSi6GQ} has newer term, stopping replication [0;37mlogging.go:105[0m
