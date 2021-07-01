@@ -1,0 +1,3 @@
+[0;37m11:37:33.236  INFO [0;34m   service: [0mInitializing. For verbose output run with "-l debug". Please wait... [0;37mdaemon.go:44[0m
+[0;37m11:37:33.238 [31mERROR [0;34m   service: [0merror unmarshalling snapshot. Snapshot potentially corrupt. [0;37mstate.go:150[0m
+error validating version: EOF
