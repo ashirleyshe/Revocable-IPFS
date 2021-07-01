@@ -1,0 +1,137 @@
+admin.nodeInfo.enode
+net.listening
+admin.nodeInfo
+admin.nodeInfo.enode
+admin.addPeer("enode://ecded93d553b80098cb1c43082545fa1d55de2abd7e9907ce1089fc43c32f74527deea3bfedff1600757ea1f3de68c26088fc8c89c9e78dbaa902be2e22a07b8@140.113.216.99:30310")
+net.peerCount
+admin.addPeer("enode://ecded93d553b80098cb1c43082545fa1d55de2abd7e9907ce1089fc43c32f74527deea3bfedff1600757ea1f3de68c26088fc8c89c9e78dbaa902be2e22a07b8@140.113.216.99:30310")
+net.peerCount
+admin.nodeInfo.enode
+admin.peers
+miner.stop()
+admin.peers
+miner.staop
+miner.stop
+admin.addPeer("enode://ecded93d553b80098cb1c43082545fa1d55de2abd7e9907ce1089fc43c32f74527deea3bfedff1600757ea
+miner.stop
+)
+miner.staop"_)
+c
+admin.nodeInfo.en
+admin.nodeInfo.enode
+net.peerCount
+miner.start()
+miner.stop()
+\
+net.listening
+net.peerCount
+miner.stop
+miner.stop()
+net.peerCount
+admin.peers
+miner.stop()
+admin.nodeInfo.enode
+admin.peers
+net.peerCount
+miner.start()
+admin.nodeInfo.enode
+net.peerCount
+miner.stop(1)
+miner.stop()
+miner.start()
+miner.start(1)
+admin.nodeInfo.enode
+net.listening
+net.peerCount
+admin.peers
+clclique.propose("0xb51FA99C248D426ff86fd60aE71834F662311913", true)
+clique.propose("0xb51FA99C248D426ff86fd60aE71834F662311913", true)
+clique.propose("0xC6596a9A1584e21d94DC65F606078dE8857db20", true)
+clique.propose("0xC6596a9A1584e21d94DC65F606078dE8857db20", true)clique.propose("0xBC6596a9A1584e21d94DC65F606078dE8857db20", true)
+clique.propose("0xBC6596a9A1584e21d94DC65F606078dE8857db20", true)
+clique.getSnapshot()
+clique.getSnapshot()[1;2A
+clique.propose("0xC6596a9A1584e21d94DC65F606078dE8857db20", true)
+clique.propose("0xb51FA99C248D426ff86fd60aE71834F662311913", true)
+miner.stop()
+clique.propose("0xBC6596a9A1584e21d94DC65F606078dE8857db20", true)
+clique.propose("0xBC6596a9A1584e21d94DC65F606078dE8857db20", false)
+clique.propose
+clique.propose()
+clique.propose("0xc991b4e344fdfe7dd060cbd7aaf45752698187761a985a460e8dd04bbb3f730b",true)
+admin.peers
+clique.propose("0x204ae41b745cee8301fcaec7add626718735ccd2", true)
+clique.getSnapshot()
+clique.propose("0x204ae41b745cee8301fcaec7add626718735ccd2", true)
+clique.propose("0x204ae41b745cee8301fcaec7add626718735ccd2", true)eth.blockNumber
+eth.blockNumber
+miner.start()
+eth.blockNumber
+clique.getSnapshot()
+clique.propose("0x204ae41b745cee8301fcaec7add626718735ccd2", true)
+clique.getSnapshot()
+clique.propose("0xBC6596a9A1584e21d94DC65F606078dE8857db20", true)
+clique.getSnapshot()
+admin.nodeInfo.en
+admin.nodeInfo.enode
+clique.getSnapshot()
+admin.nodeInfo.enode
+clique.getSnapshot()
+web3.fromWei(eth.getBalance(eth.coinbase), "ether")
+miner.stop()
+admin.nodeInfo.enode
+admin.nodeInfo.
+admin.nodeInfo
+minser.start()
+miner.start()
+clique.getSnapshot()
+miner.stop()
+miner.stop
+miner.stop()
+miner.start(1)
+clique.getSnapshot()
+miner.stop()
+miner.start(1)
+clique.getSnapshot()
+admin.peers
+clique.getSnapshot()
+admin.peers
+eixt
+miner.start
+miner.start()
+admin.peers
+miner.start()
+eth.sendTransaction({from:"b51FA99C248D426ff86fd60aE71834F662311913", to:"204ae41b745cee8301fcaec7add626718735ccd2", value: web3.toWei(0.01, "ether")})
+miner.start()
+admin.peers
+miner.start()
+eth.getBlock("latest").gasLimit
+admin.peers
+miner.start()
+eth.getBlock("latest").gasLimit
+miner.stop()
+miner.stop(1)
+miner.stop()
+miner.start(1)
+miner.stop(1)
+miner.stop()
+exit()
+miner.start()
+miner.stop()
+pragma solidity >=0.4.17 <0.6.0;
+import './strings.sol';
+pragma solidity >=0.4.17 <0.6.0;
+miner.start
+miner.start()
+admin.peers
+miner.start()
+admin.peers
+eth.getBalance(eth.accounts[0])
+miner.start()
+eth.getBalance(eth.accounts[0])
+miner.start()
+eth.getBalance(eth.accounts[0])
+miner.start()
+clique.getSnapshot()
+admin.nodeInfo.enode
+eth.blockNumber
