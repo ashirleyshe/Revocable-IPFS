@@ -1,0 +1,22 @@
+{
+  "name": "deploycont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd truffle && truffle deploy && truffle test ./test.js && cd .. && npm run myOtherTests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.1.0",
+    "fs": "0.0.1-security",
+    "g": "^2.0.1",
+    "keythereum": "^1.0.4",
+    "path": "^0.12.7",
+    "solc": "^0.5.12",
+    "truffle-contract": "^3.0.6",
+    "truffle-hdwallet-provider": "0.0.6",
+    "web3": "0.19.0"
+  }
+}
